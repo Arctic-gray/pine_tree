@@ -1,0 +1,13 @@
+{
+    "_template": "https://github.com/Springerle/dh-virtualenv-mold.git",
+    "distro": "UNRELEASED",
+    "email": "vik.teplowa2012@yandex.ru",
+    "full_name": "Arctic-gray",
+    "package": "pine_tree",
+    "repo_name": "debian",
+    "short_description": "Simple pyton package",
+    "snake": "/usr/bin/python3",
+    "url": "https://github.com/Arctic-gray/pine_tree",
+    "version": "0.1.0",
+    "year": "2023"
+}

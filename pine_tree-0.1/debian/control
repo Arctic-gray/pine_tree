@@ -1,0 +1,20 @@
+Source: pine_tree
+Section: contrib/python
+Priority: extra
+Maintainer: Arctic-gray <vik.teplowa2012@yandex.ru>
+Build-Depends: debhelper (>= 9), python3, python3-venv, python3-dev, dh-virtualenv (>= 1.1), tar
+Standards-Version: 3.9.5
+Homepage: https://github.com/Arctic-gray/pine_tree
+
+Package: pine_tree
+Architecture: any
+Pre-Depends: dpkg (>= 1.16.1), python3, python3-venv, ${misc:Pre-Depends}
+Depends: ${python:Depends}, ${misc:Depends}
+Description: Simple pyton package
+    .
+    This is a distribution of "pine_tree" as a self-contained
+    Python virtualenv wrapped into a Debian package ("omnibus" package,
+    all passengers on board). The packaged virtualenv is kept in sync with
+    the host's interpreter automatically.
+    .
+    See https://github.com/spotify/dh-virtualenv for more details.
