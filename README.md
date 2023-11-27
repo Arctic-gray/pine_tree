@@ -1,4 +1,4 @@
-# pine_tree
+# pine_tree.py to .deb file
 
 ### Создание и запуск контейнера
 - Загузка последней версии image debian:\
