@@ -1,5 +1,9 @@
 # pine_tree.py to .deb file
 
+#### Update 01.12.23
+- Создан dockerfile с необходимыми библиотеками
+- Вернулась ошибка ``dpkg-buildpackage: error: version number does not start with digit``
+
 ### Создание и запуск контейнера
 - Загузка последней версии image debian:\
    ``docker pull debian``
